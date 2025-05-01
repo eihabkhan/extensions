@@ -8,7 +8,7 @@ Arguments are configured in the [manifest](../manifest.md#argument-properties) p
 
 {% hint style="info" %}
 
-- **Maximum number of arguments:** 3 (if you have a use case that requires more, please let us know via feedback or in the [Slack community](https://www.raycast.com/community))
+- **Maximum number of arguments:** 3 (if you have a use case that requires more, please let us know via feedback or in the <a href="https://www.raycast.com/community" target="_blank">Slack community</a>)
 - The order of the arguments specified in the manifest is important and is reflected by the fields shown in Root Search. To provide a better UX, put the required arguments before the optional ones.
 
 {% endhint %}
