@@ -1,0 +1,52 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "hdr-flashbang",
+  "title": "HDR Flashbang",
+  "description": "Infuse images with HDR",
+  "icon": "command-icon.png",
+  "author": "eihab",
+  "owner": "itseihab",
+  "version": "1.0.2",
+  "keywords": [
+    "emotes",
+    "hdr",
+    "sips",
+    "infuse"
+  ],
+  "categories": [
+    "Media",
+    "Design Tools"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "infuse",
+      "title": "Infuse images with HDR",
+      "description": "Infuse the selected image(s) with HDR color profile",
+      "mode": "no-view",
+      "keywords": [
+        "infuse",
+        "hdr"
+      ]
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.97.0",
+    "@raycast/utils": "^1.17.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.0.4",
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.10",
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
